@@ -25,7 +25,10 @@
 		
 		<!-- test scope -->
 		<!-- EX: add dependency for junit -->
-
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 	</dependencies>
 
 </project>

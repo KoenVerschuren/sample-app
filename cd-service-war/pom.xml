@@ -15,7 +15,10 @@
 	<build>
 		<plugins>
 			<!-- EX: add the maven-war-plugin in order to build a proper war file -->
-
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-war-plugin</artifactId>
+	</plugin>
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
